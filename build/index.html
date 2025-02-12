@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Surf</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<nav class="menu">
+						<!-- ul.menu__list>li.menu__item*6>a.menu__linj[href=#] -->
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__linj">home</a></li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">activities</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">pricing plan</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">contact us</a>
+							</li>
+							<li class="menu__item"><a href="#" class="menu__linj">blog</a></li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">about us</a>
+							</li>
+						</ul>
+					</nav>
+
+					<a href="tel:+351912568342" class="header__phone">
+						<svg class="icon icon--phone-ico">
+							<use href="./img/svgsprite/sprite.symbol.svg#phone-ico"></use>
+						</svg>
+						+351912568342</a
+					>
+				</div>
+				<picture>
+					<source srcset="./img/header/title.webp 1x, ./img/header/title@2x.webp 2x" type="image/webp" />
+					<source srcset="./img/header/title.png 1x, ./img/header/title@2x.png 2x" type="image/png" />
+					<img class="title-img" src="./img/header/title.png" alt="" />
+				</picture>
+				<h1 class="title visually-hidden">Surfing school</h1>
+				<p class="title-text">Vilamoura. Portugal</p>
+				<div class="header__content">
+					<div class="header__info">
+						<ul class="header__info-list">
+							<li class="header__info-item">Privat lessons</li>
+							<li class="header__info-item">Group lessons</li>
+							<li class="header__info-item">Surf &sup rentals</li>
+							<li class="header__info-item">Stand up&#160;puddle</li>
+							<li class="header__info-item">Surf trips</li>
+						</ul>
+						<div class="header__social">
+							<ul class="header__social-list">
+								<li class="header__social-item">
+									<a href="#" class="header__social-links"
+										><svg class="icon icon--face">
+											<use href="./img/svgsprite/sprite.symbol.svg#face"></use></svg
+									></a>
+								</li>
+								<li class="header__social-item">
+									<a href="#" class="header__social-links"
+										><svg class="icon icon--insta">
+											<use href="./img/svgsprite/sprite.symbol.svg#insta"></use></svg
+									></a>
+								</li>
+								<li class="header__social-item">
+									<a href="#" class="header__social-links"
+										><svg class="icon icon--youtube">
+											<use href="./img/svgsprite/sprite.symbol.svg#youtube"></use></svg
+									></a>
+								</li>
+								<li class="header__social-item">
+									<a href="#" class="header__social-links"
+										><svg class="icon icon--whats">
+											<use href="./img/svgsprite/sprite.symbol.svg#whats"></use></svg
+									></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="header__news">
+						<div class="header__news-box">
+							<h3 class="header__news-title">NAZARE. BIG WAvE TRIP</h3>
+							<time class="header__news-time" datetime="2022-02-10">10.02.2022</time>
+							<a href="#" class="header__news-link">more info</a>
+							<picture>
+								<source srcset="./img/header/news.webp 1x, ./img/header/news@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/header/news.jpg 1x, ./img/header/news@2x.jpg 2x" type="image/jpeg" />
+								<img class="header__news-img" src="./img/header/news.jpg" alt="" />
+							</picture>
+						</div>
+						<div class="header__buttons">
+							<a href="#" class="header__buttons-book">book now</a>
+							<a href="#" class="header__buttons-activities">activities</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="mobile-nav">
+			<ul class="mobile-nav__list">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="docs.html">Документация</a></li>
+			</ul>
+		</div>
+
+		<!-- <button class="mobile-nav-btn">
+                <div class="nav-icon"></div>
+            </button> -->
+
+		<main class="docs"></main>
+		<footer class="footer">
+			<div class="container">
+				<!-- <div class="footer__copyright">
+			<p>Сборка сделана в школе <a href="https://webcademy.ru" target="_blank">webcademy.ru</a></p>
+		</div> -->
+			</div>
+		</footer>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

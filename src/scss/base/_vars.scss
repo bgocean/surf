@@ -1,0 +1,26 @@
+:root {
+  --container-width: 1740px;
+  --container-padding: 10px;
+
+  --font-main: "Rethink Sans", serif;
+  --font-accent: "Rethink Sans", serif;
+  --font-titles: var(--font-accent);
+
+  --blue: #0a507a;
+  --white: #fff;
+  --black: #2b2a29;
+
+  --page-bg: #fff;
+  --text-color: #000;
+  //   --accent: #ac182c;
+  --link-color: #0a507a;
+
+  --laptop-size: 1199px;
+  --tablet-size: 959px;
+  --mobile-size: 599px;
+}
+
+.dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+}

@@ -1,0 +1,30 @@
+.icons-wrapper {
+  padding: 30px 0;
+  display: flex;
+  column-gap: 30px;
+}
+
+.icon {
+  fill: transparent;
+  stroke: transparent;
+  width: 62px;
+  height: 62px;
+}
+
+.icon--phone-ico {
+  width: 24px;
+  height: 24px;
+  stroke: var(--white);
+}
+.icon--face {
+  fill: var(--black);
+}
+.icon--insta {
+  fill: var(--black);
+}
+.icon--youtube {
+  fill: var(--black);
+}
+.icon--whats {
+  fill: var(--black);
+}
