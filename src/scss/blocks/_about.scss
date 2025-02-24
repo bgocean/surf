@@ -1,22 +1,27 @@
 .about {
   margin-bottom: 150px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__content {
     max-width: 560px;
     display: flex;
     flex-direction: column;
   }
   &__subtitle {
-    margin-bottom: 20px;
     font-size: 20px;
     font-weight: 700;
     color: var(--black);
+    margin-bottom: 20px;
   }
   &__title {
-    margin-bottom: 100px;
     font-weight: 800;
     font-size: 64px;
     text-transform: uppercase;
     color: var(--black);
+    margin-bottom: 100px;
   }
   &__list {
     display: flex;
@@ -62,8 +67,4 @@
   }
 }
 
-.inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
