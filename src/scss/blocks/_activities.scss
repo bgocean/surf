@@ -23,11 +23,28 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: space-between;
     flex-basis: 50%;
+    text-wrap: pretty;
   }
   &__list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
   }
   &__item {
+    border: 1px solid var(--black);
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h5 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 26px;
+      color: var(--black);
+    }
   }
 }
 
