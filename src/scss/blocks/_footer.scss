@@ -16,7 +16,7 @@
     font-weight: 800;
     font-size: 64px;
     text-transform: uppercase;
-  }  
+  }
   &__info-list {
     display: flex;
     gap: 68px;
@@ -47,8 +47,6 @@
     display: flex;
     gap: 40px;
   }
-  &__nav-item {
-  }
   &__nav-link {
     color: var(--white);
   }
@@ -57,4 +55,3 @@
   display: flex;
   gap: 20px;
 }
-
